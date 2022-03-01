@@ -4,10 +4,11 @@
 # Created on February 2022
 # This is the math program, with proper style
 
+import math
+
 
 def main():
-    import math
-
+    # This function calculates the area and perimetre of a circle
     print("If a circle has a radius of 15 mm:")
     print("")
     print("Area is {} mm².".format(math.pi * pow(15, 2)))
